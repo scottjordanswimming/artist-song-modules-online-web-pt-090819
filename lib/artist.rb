@@ -1,5 +1,5 @@
 require 'pry'
-
+require_relative './fancy_dance.rb'
 class Artist
   attr_accessor :name
   attr_reader :songs
