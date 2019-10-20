@@ -1,7 +1,7 @@
 module Memorable
   
   
-  def self.reset_all
+  def reset_all
     self.all.clear
   end
 
