@@ -1,7 +1,7 @@
 require 'pry'
 require_relative '../lib/concerns/memorable.rb'
 class Artist
-  extend FancyDance::ClassMethods
+  extend Memorable::ClassMethods
   
   attr_accessor :name
   attr_reader :songs
